@@ -1,1 +1,103 @@
-//hero
+.hero {
+
+    &__container {
+        width: 100%;
+        background: #E7816B;
+        border-radius: 10px;
+        padding: 145px 0 145px 69px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        background-image: url(../images/hero-call.png);
+        background-repeat: no-repeat;
+        background-position-x: right;
+        margin-bottom: 160px;
+
+    }
+
+    &__oval {
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        max-width: 621px;
+        background: linear-gradient(90deg, rgba(93, 2, 2, 0.0001) 0%, rgba(93, 2, 2, 0.497569) 100%);
+        opacity: 0.31;
+        transform: matrix(0, -1, -1, 0, 0, 0);
+        border-radius: 100%;
+
+
+
+    }
+
+    &__left {
+        width: 100%;
+        max-width: 540px;
+        padding: 145px  95px;
+
+    }
+
+    &__heading {
+        max-width: 540px;
+        font-family: 'Jost';
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 48px;
+        color: #FFFFFF;
+    }
+
+    &__desc {
+        max-width: 445px;
+        font-family: 'Jost';
+        font-size: 16px;
+        line-height: 26px;
+        color: #FFFFFF;
+
+    }
+
+}
+
+@media only screen and (max-width:941px) {
+    .hero {
+     &__left {
+        width: 5px;
+        padding: 130px  80px;
+
+    }
+
+
+    &__heading {
+        width: 455px;
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    &__desc {
+        width: 400px;
+        font-size: 16px;
+        line-height: 24px;
+
+    }
+
+    &__container {
+        padding: 120px 0 120px 50px;
+
+    }
+
+
+
+    &__oval {
+        width: 600px;
+        height: 600px;
+        border-radius: 100%;
+
+
+
+
+
+    }
+
+}
+
+}

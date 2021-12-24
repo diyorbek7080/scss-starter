@@ -1,0 +1,176 @@
+.design {
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        margin-bottom: 160px;
+    }
+    &__web {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        max-width: 540px;
+        padding: 24.5% 2%;
+        margin-right: 2.7%;
+        background-image: url(../images/design-web.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        border-radius: 20px;
+    }
+
+    &__app {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        max-width: 540px;
+        margin-bottom: 5%;
+        padding: 19.8% 2%;
+        background-image: url(../../images/design-app.png);
+        background-repeat: no-repeat;
+       color: white;
+       border-radius: 10px;
+    }
+
+    &__view {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        max-width: 540px;
+        padding: 19.8% 2%;
+        background-image: url(../../images/design-graphic.png);
+        background-repeat: no-repeat;
+        color: white;
+        border-radius: 10px;
+    }
+
+    &__heading {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 2%;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Jost';
+        font-weight: 500;
+        letter-spacing: 2px;
+        font-size: 39px;
+        line-height: 48px;
+        color: #FFFFFF;
+
+    }
+
+    &__desc {
+        margin: 0;
+        padding: 0;
+        font-family: 'Jost';
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 22px;
+        letter-spacing: 5px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    &__bottom {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        max-width: 540px;
+    }
+
+}
+
+
+@media only screen and (max-width:768px) {
+    .design {
+
+        &__container {
+            display: flex;
+            flex-direction: column;
+        }
+        &__web {
+            max-width: 535px;
+            padding: 19.8% 2%;
+            margin-right: 2.0%;
+            margin-bottom: 24px;
+        }
+
+        &__app {
+            max-width: 590px;
+            margin-bottom: 5%;
+            padding: 19.8% 2%;
+        }
+
+        &__view {
+            max-width: 590px;
+            padding: 19.8% 2%;
+        }
+
+        &__heading {
+            margin-bottom: 2%;
+            letter-spacing: 2px;
+            font-size: 30px;
+            line-height: 48px;
+
+        }
+
+        &__desc {
+            font-size: 15px;
+            line-height: 22px;
+            letter-spacing: 5px;
+
+        }
+
+    }
+
+}
+
+@media only screen and (max-width:370px) {
+    .design {
+
+        &__web {
+            max-width: 327px;
+            padding: 19.8% 2%;
+            margin-right: 2.0%;
+            margin-bottom: 5%;
+        }
+
+        &__app {
+            max-width: 327px;
+            margin-bottom: 5%;
+            padding: 19.8% 2%;
+        }
+
+        &__view {
+            max-width: 327px;
+            padding: 19.8% 2%;
+        }
+
+        &__heading {
+            margin-bottom: 2%;
+            letter-spacing: 2px;
+            font-size: 25px;
+            line-height: 48px;
+
+        }
+
+        &__desc {
+            font-size: 15px;
+            line-height: 22px;
+            letter-spacing: 5px;
+
+        }
+
+    }
+
+}
